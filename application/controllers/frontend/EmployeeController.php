@@ -12,6 +12,7 @@ class EmployeeController extends CI_Controller{
 
     public function create(){
         $this->load->view('templates/header');
+        
         $this->load->view('frontend/create');   
         $this->load->view('templates/footer');
     }
